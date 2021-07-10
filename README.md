@@ -1,6 +1,7 @@
 ### This module creates vpc
 Please copy paste the following code
-,,,
+```
+
 
 module "app_name" {
     source = "Esin1942/vpc/aws"
@@ -20,4 +21,5 @@ module "app_name" {
         AppName = "Wordpress"
     }
 }
-,,,
+
+```
